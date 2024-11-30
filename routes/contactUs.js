@@ -1,7 +1,7 @@
 // routes/contactUs.js
 const express = require("express");
 const router = express.Router();
-const ContactUs = require("../models/ContactUs");
+const ContactUs = require("../models/contactUs");
 
 // POST endpoint to submit the contact us form
 router.post("/", async (req, res) => {
